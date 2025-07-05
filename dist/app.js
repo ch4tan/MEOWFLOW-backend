@@ -10,7 +10,7 @@ const router_1 = __importDefault(require("./routes/router"));
 const app = (0, express_1.default)();
 const port = 3000;
 app.use((0, cors_1.default)({
-    origin: "http://localhost:5173",
+    origin: "https://meowflow-frontend.vercel.app/",
     methods: ["POST, GET"],
 }));
 app.use((0, helmet_1.default)());
